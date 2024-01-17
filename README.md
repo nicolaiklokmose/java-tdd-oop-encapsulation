@@ -111,6 +111,28 @@ I want to be able to turn the car left and right.
 
 I want to be able to replace the battery with either kind as needed.
 ```
+### Class RemoveControlledCar
+
+| Member Variables   | Methods          | Return                     | Output  |
+|--------------------|------------------|----------------------------|---------|
+| color: String      |                  |                            |         |
+| typeRemote: String |                  |                            |         |
+| battery : Battery  |                  |                            |         |
+|                    | forward()        | distance traveled : String | Sys.out |
+|                    | backward()       | distance traveled : String | Sys.out |
+|                    | stop()           | msg : String               | Sys.out |
+|                    | turnRight()      | msg : String               | Sys.out |
+|                    | turnLeft()       | msg : String               | Sys.out |
+|                    | replaceBattery() | this                       | Sys.out |
+
+
+### Class Battery
+
+| Member Variables    | Methods         | Return               | Output  |
+|---------------------|-----------------|----------------------|---------|
+| type: String        |                 |                      |         |
+| powerRemaining: int |                 |                      |         |
+|                     | decreasePower() | powerRemaining : int | Sys.out |
 
 ## Next steps
 
